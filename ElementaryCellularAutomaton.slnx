@@ -1,7 +1,4 @@
 <Solution>
-  <Folder Name="/Solution Items/">
-    <File Path="README.md" />
-  </Folder>
   <Project Path="ElementaryCA.ConsoleApp/ElementaryCA.ConsoleApp.csproj" />
   <Project Path="ElementaryCA.Core/ElementaryCA.Core.csproj" />
   <Project Path="ElementaryCA.Tests/ElementaryCA.Tests.csproj" />
