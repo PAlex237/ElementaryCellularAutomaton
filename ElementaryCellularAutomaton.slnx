@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ElementaryCA.Core/ElementaryCA.Core.csproj" />
+  <Project Path="ElementaryCA.Tests/ElementaryCA.Tests.csproj" />
+</Solution>
