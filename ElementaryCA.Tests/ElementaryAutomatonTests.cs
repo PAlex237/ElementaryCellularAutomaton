@@ -8,7 +8,7 @@ namespace ElementaryCA.Tests
         [TestMethod]
         public void Rule90_ComputesCorrectly()
         {
-            ElementaryAutomaton automaton = new ElementaryAutomaton();
+            ElementaryAutomaton automaton = new ElementaryAutomaton(90);
 
             Assert.AreEqual(0, automaton.CalculateNextState(1,1,1));
             Assert.AreEqual(1, automaton.CalculateNextState(1, 1, 0));
@@ -23,7 +23,7 @@ namespace ElementaryCA.Tests
         [TestMethod]
         public void Rule110_ComputesCorrectly()
         {
-            ElementaryAutomaton automaton = new ElementaryAutomaton();
+            ElementaryAutomaton automaton = new ElementaryAutomaton(110);
             Assert.AreEqual(0, automaton.CalculateNextState(1, 1, 1));
             Assert.AreEqual(1, automaton.CalculateNextState(1, 1, 0));
             Assert.AreEqual(1, automaton.CalculateNextState(1, 0, 1));
