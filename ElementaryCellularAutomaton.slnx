@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="ElementaryCA.ConsoleApp/ElementaryCA.ConsoleApp.csproj" />
   <Project Path="ElementaryCA.Core/ElementaryCA.Core.csproj" />
   <Project Path="ElementaryCA.Tests/ElementaryCA.Tests.csproj" />
 </Solution>
